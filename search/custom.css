@@ -1,0 +1,38 @@
+.active {
+  border-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.nav-tabs {
+  /* display: inline-block; */
+  line-height: 24px;
+  /* vertical-align: middle; */
+  color: black;
+  text-align: right;
+  float: right;
+  border-color: #fff;
+  border: none;
+}
+
+.nav-tabs .nav-link {
+  margin-bottom: -1px;
+  background: 0 0;
+  border: 0px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  font-size: 14px;
+}
